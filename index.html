@@ -5,28 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A minha primeira página</title>
-    <style>
-    table {
-        border-collapse: collapse;
-        width: 100%;
-      }
-      th,
-      td {
-        text-align: left;
-        padding: 8px;
-      }
-
-      tr {
-        background-color: #fbd3ee;
-      }
-
-    </style>
+    <link rel="stylesheet" href="style.css" />
+    
 
 </head>
 <body>
-    <h1>Paula Peña Fernández</h1>
-    <fieldset>
-    <h2>ÍNDICE</h2>
+    <nav>Paula Peña Fernández</nav>
+    <article>
+    <div id="titulo"><h1>Un poco sobre mi vida</h1></div>
+    
+    <div id="cajas"><h2>ÍNDICE</h2>
     <!-- lista del índice-->
     <ol>
         <li>Biografía</li>
@@ -34,18 +22,20 @@
         <li>Aficciones</li>
         <li>Viajes</li>
     </ol>
-</fieldset>
-    <div><h3>1. Biografía</h3>
+</div>
+
+<div id="cajas">
+    <div id="cajas1"><h3>1. Biografía</h3>
         <p>Nací el 31 de agosto de 2002 y tengo 20 años. Vivo en <a href="https://sevillecityguide.com/">Sevilla</a>, una ciudad de Andalucia en el sur de España. 
         Vivo con mis padres y mi hermano en un piso cerca del centro histórico</p>
-        <center><video src="src/video.mp4" controls alt="video de tiktok con imágenes de Sevilla"></video></center>
-        
-    <div><h3>2. Estudios</h3>
+        <center><video src="src/video.mp4" width="1000px" height="400px" controls alt="video de tiktok con imágenes de Sevilla"></video></center>
+    </div>
+    <div id="cajas1"><h3>2. Estudios</h3>
         <p>Hice el bachillerato de ciencias de la salud y quería estudiar matemáticas, informática o astronomía. Finalmente entré en la carrera de Ingeniería Informática del Software.</p>
     <center><span>Esta es una foto de mi facultad: </span></center>
     <center><img src="src/ETSII_Sevilla.png" width="700px" height="200px" alt ="foto de mi facultad:" ></center>
     <p><u> Actualmente estoy estudiando tercero de carrera de erasmus en Porto.</u></p></div>
-    <div><h3>3. Aficciones</h3>
+    <div id="cajas1"><h3>3. Aficciones</h3>
         <p>Una de las cosas que más me gusta hacer es escuchar música e ir a conciertos, es una de las mejores experiencias que existe. Me gusta el baile y el fútbol.
             También me gusta ver series y películas. Mi serie favorita es Games of thrones. 
         </p>
@@ -80,7 +70,7 @@
             </tr>
         </table>
     </div>
-   <div><h3>4. Viajes</h3>
+   <div id="cajas1"><h3>4. Viajes</h3>
    <p>He estado viajando por diferentes partes de <i>España</i> como Barcelona, Galicia, Madrid, Valencia. De <i>Portugal</i> he visitado Lisboa, Oporto, Cascais y he hecho una ruta en coche por el Algarve. 
     Además he viajado a <i>Londres</i> y <i>Dublín</i> y he estado por varias ciudades de <i>Francia</i>. </p> 
     <label>Elige tu país preferido:</label>
@@ -96,6 +86,8 @@
     <label>Sitios en los que usted ha estado:</label><br/>
     <textarea value="" rows="5" cols="30"></textarea>
 </div> 
+</div>
+</article>
     
     
 
