@@ -1,0 +1,74 @@
+html, body { height: 100%; }
+
+body { margin: 0; padding: 0; background-image: url("src/fondo2.png");  }
+
+nav {
+    position: fixed;
+    background-color: rgb(170, 197, 245);
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+  }
+  
+article {
+    max-width: 90%;
+    margin: auto;
+  }
+
+li { 
+    margin: 20px; 
+    padding: 0; 
+    }
+
+h3 {
+    background-color: rgb(73, 125, 202);
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+#titulo {
+    font-family: fantasy;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#cajas{
+    background-color:rgb(162, 175, 202);
+    padding: 20px;
+    border: rgb(254, 254, 254) solid ;
+    margin-top: 20px;
+}
+
+#cajas1{
+    background-color:  rgb(213, 219, 232);
+    padding: 30px;
+    border: rgb(254, 254, 254) solid ;
+    margin-top: 30px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+th { text-align: center;
+    border: 2px solid rgb(134, 123, 201);  }
+
+td { text-align: center;
+    border: 2px solid rgb(134, 123, 201); }
+
+tr {
+    background-color: #c9cbff;
+      }
+
+    
+    
+
+    
